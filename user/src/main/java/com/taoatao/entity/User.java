@@ -54,11 +54,5 @@ public class User implements Serializable {
 
     private String remark;
 
-    private String remark2;
 
-    private String remark3;
-
-    private String remark4;
-
-    private String remark5;
 }
