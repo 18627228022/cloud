@@ -27,4 +27,9 @@ public class UserController {
         User u = iUserService.getById(id);
         return u.toString();
     }
+    @GetMapping("/getById3")
+    public String getById3(String id){
+        User u = iUserService.getById(id);
+        return u.toString();
+    }
 }
