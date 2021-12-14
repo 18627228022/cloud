@@ -62,5 +62,4 @@ public class Test implements Serializable {
     private String remark4;
 
     private String remark5;
-    private String reason;
 }
