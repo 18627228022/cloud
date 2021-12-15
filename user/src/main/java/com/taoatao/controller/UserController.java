@@ -45,4 +45,9 @@ public class UserController {
         System.out.println(u.toString());
         return u.toString();
     }
+
+    @GetMapping("/getById9")
+    public String getById9(String id){
+        return "u.toString()";
+    }
 }
