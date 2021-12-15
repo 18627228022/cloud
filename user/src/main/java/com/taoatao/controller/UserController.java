@@ -39,6 +39,13 @@ public class UserController {
         return u.toString();
     }
 
+    @GetMapping("/getById4")
+    public String getById4(String id){
+        User u = iUserService.getById(id);
+        System.out.println(u.toString());
+        return u.toString();
+    }
+
     @GetMapping("/getById5")
     public String getById5(String id){
         User u = iUserService.getById(id);
