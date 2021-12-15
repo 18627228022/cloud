@@ -29,10 +29,20 @@ public class UserController {
     }
     @GetMapping("/getById3")
     public String getById3(String id){
+        User u = iUserService.getById(id);
+        return u.toString();
+    }
 
     @GetMapping("/getById2")
     public String getById2(String id){
         User u = iUserService.getById(id);
+        return u.toString();
+    }
+
+    @GetMapping("/getById5")
+    public String getById5(String id){
+        User u = iUserService.getById(id);
+        System.out.println(111233111);
         return u.toString();
     }
 }
