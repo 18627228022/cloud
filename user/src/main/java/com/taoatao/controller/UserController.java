@@ -50,4 +50,9 @@ public class UserController {
     public String getById9(String id){
         return "u.toString()";
     }
+
+    @GetMapping("/getById10")
+    public String getById10(String id){
+        return "u.toString()3333";
+    }
 }
